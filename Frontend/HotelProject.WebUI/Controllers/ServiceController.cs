@@ -1,4 +1,4 @@
-﻿using HotelProject.WebUI.Dtos;
+﻿using HotelProject.WebUI.Dtos.ServiceDtos;
 using HotelProject.WebUI.Models.Staff;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;

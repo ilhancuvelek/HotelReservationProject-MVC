@@ -1,4 +1,4 @@
-﻿namespace HotelProject.WebUI.Dtos
+﻿namespace HotelProject.WebUI.Dtos.ServiceDtos
 {
     public class ResultServiceDto
     {
