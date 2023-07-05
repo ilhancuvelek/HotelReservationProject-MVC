@@ -29,6 +29,13 @@ builder.Services.AddScoped<IRoomService, RoomManager>();
 builder.Services.AddScoped<IServiceDal, EfServiceDal>();
 builder.Services.AddScoped<IServiceService, ServiceManager>();
 
+builder.Services.AddScoped<IAboutDal, EfAboutDal>();
+builder.Services.AddScoped<IAboutService, AboutManager>();
+
+builder.Services.AddScoped<ISubscribeDal, EfSubscribeDal>();
+builder.Services.AddScoped<ISubscribeService, SubscribeManager>();
+
+
 builder.Services.AddAutoMapper(typeof(Program));
 
 //API CORS
